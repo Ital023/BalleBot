@@ -38,6 +38,9 @@ body{
     color: var(--cor-principal);
     font-weight: 400;
 }
+.nav__itens:hover{
+    color: rgba(236, 214, 196, 0.53);
+}
 .principal{
     margin-bottom: 48px;
     border-top: 0.4px solid var(--cor-principal);
@@ -77,4 +80,39 @@ body{
     font-size: 24px;
     font-family: var(--fonte-secundaria);
     font-weight: 400;
+}
+.conteudo__botao:hover {
+    background-color: rgba(236, 214, 196, 0.53);
+  }
+.introducao__imagem{
+    height: 430px;
+}
+.explicacao{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 48px;
+    gap: 32px;
+}
+.explicacao__titulo{
+    font-family: var(--fonte-principal);
+    font-weight: 400;
+    font-size: 24px;
+    color: var(--cor-principal);
+    margin-bottom: 16px;
+    padding-top: 48px;
+    border-top: 0.4px solid var(--cor-principal);
+}
+.explicacao__texto{
+    font-family: var(--fonte-secundaria);
+    font-weight: 400;
+    font-size: 18px;
+    color: var(--cor-secundaria);
+}
+.rodape{
+    display: flex;
+    justify-content: center;
+    padding-top: 52px;
+    padding-bottom: 28px;
+    border-top: 0.4px solid #FFF2E7;
 }
